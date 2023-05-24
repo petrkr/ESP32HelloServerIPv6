@@ -5,6 +5,7 @@ Demo with IPv6 socket on ESP32
 Optionaly it needs update WiFiSTA in SDK to support print of global IPv6
 
 WiFiSTA.cpp
+```
 /**
  * Get the station interface IPv6 address.
  * @return IPv6Address
@@ -20,8 +21,9 @@ IPv6Address WiFiSTAClass::globalIPv6()
     }
     return IPv6Address(addr.addr);
 }
-
+```
 
 WiFiSTA.h
+```
     IPv6Address globalIPv6();
-
+```
